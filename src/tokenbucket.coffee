@@ -358,7 +358,7 @@ class TokenBucket
       resolver.reject error
     else
       set = =>
-        @redis.redisClient.mset 'tokenbucket:' + @redis.bucketName + ':lastFill', @lastFill, 'tokenbucket:' + @redis.bucketName + ':tokensLeft', @tokensLeft, (err, reply) ->
+        @redis.redisClient.mSet 'tokenbucket:' + @redis.bucketName + ':lastFill', @lastFill, 'tokenbucket:' + @redis.bucketName + ':tokensLeft', @tokensLeft, (err, reply) ->
           if err
             resolver.reject new Error err
           else
@@ -386,7 +386,7 @@ class TokenBucket
       resolver.reject error
     else
       get = =>
-        @redis.redisClient.mget 'tokenbucket:' + @redis.bucketName + ':lastFill', 'tokenbucket:' + @redis.bucketName + ':tokensLeft', (err, reply) =>
+        @redis.redisClient.mGet 'tokenbucket:' + @redis.bucketName + ':lastFill', 'tokenbucket:' + @redis.bucketName + ':tokensLeft', (err, reply) =>
           if err
             resolver.reject new Error err
           else
