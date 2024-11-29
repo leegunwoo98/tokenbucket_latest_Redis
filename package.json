@@ -1,5 +1,5 @@
 {
-  "name": "tokenbucket-gunwoo",
+  "name": "tokenbucket-latest-Redis",
   "version": "0.3.3",
   "description": "A flexible rate limiter using different variations of the Token Bucket algorithm, with hierarchy support, and optional persistence in Redis. Useful for limiting API requests, or other tasks that need to be throttled.",
   "keywords": [
