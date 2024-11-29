@@ -1,6 +1,6 @@
 {
-  "name": "tokenbucket-latest-Redis",
-  "version": "0.3.3",
+  "name": "tokenbucket-latest-redis",
+  "version": "0.3.4",
   "description": "A flexible rate limiter using different variations of the Token Bucket algorithm, with hierarchy support, and optional persistence in Redis. Useful for limiting API requests, or other tasks that need to be throttled.",
   "keywords": [
     "rate limiter",
@@ -14,7 +14,7 @@
     "throttler"
   ],
   "homepage": "https://github.com/jesucarr/tokenbucket",
-  "bugs": "https://github.com/jesucarr/tokenbucket/issues",
+  "bugs": "https://github.com/leegunwoo98/tokenbucket_latest_Redis.git",
   "author": {
     "name": "Jesús Carrera",
     "email": "jesus.carrera@frontendmatters.com",
@@ -23,7 +23,7 @@
   "main": "./lib/tokenbucket.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jesucarr/tokenbucket.git"
+    "url": "https://github.com/leegunwoo98/tokenbucket_latest_Redis.git"
   },
   "scripts": {
     "test": "gulp test",
