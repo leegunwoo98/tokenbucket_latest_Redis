@@ -13,8 +13,8 @@
     "throttling",
     "throttler"
   ],
-  "homepage": "https://github.com/jesucarr/tokenbucket",
-  "bugs": "https://github.com/jesucarr/tokenbucket/issues",
+  "homepage": "https://github.com/leegunwoo98/tokenbucket_latest_Redis",
+  "bugs": "https://github.com/leegunwoo98/tokenbucket_latest_Redis/tokenbucket/issues",
   "author": {
     "name": "Jesús Carrera",
     "email": "jesus.carrera@frontendmatters.com",
